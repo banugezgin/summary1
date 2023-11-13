@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonic Results</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+            
+        .container {    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #2A2F4F;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        h1 {
+            color: #FDE2F3;
+        }
+
+        .header {
+            margin-bottom: 3rem;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Birth Chart Harmonic Results</h1>
+        </div>
+
+        <div class="result-table">
+
+            <table class="table table-striped table-hover">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Planet</th>
+                    <th scope="col">Angular Distance</th>
+                    <th scope="col">H1</th>
+                    <th scope="col">H2</th>
+                    <th scope="col">H3</th>
+                    <th scope="col">H5</th>
+                    <th scope="col">H7</th>
+                    <th scope="col">H11</th>
+                    <th scope="col">H13</th>
+                    <th scope="col">H17</th>
+                    <th scope="col">H19</th>
+                    <th scope="col">H23</th>
+                    <th scope="col">H29</th>
+                    <th scope="col">H31</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="col">1</th>
+                    <th scope="col">Sun Moon</th>
+                    <th scope="col"><%=degreesSunMoon%>°<%=minutesSunMoon%>'</th>
+                    <th scope="col"><%-finalH1SunMoon%></th>
+                    <th scope="col"><%-finalH2SunMoon%></th>
+                    <th scope="col"><%-finalH3SunMoon%></th>
+                    <th scope="col"><%-finalH5SunMoon%></th>
+                    <th scope="col"><%-finalH7SunMoon%></th>
+                    <th scope="col"><%-finalH11SunMoon%></th>
+                    <th scope="col"><%-finalH13SunMoon%></th>
+                    <th scope="col"><%-finalH17SunMoon%></th>
+                    <th scope="col"><%-finalH19SunMoon%></th>
+                    <th scope="col"><%-finalH23SunMoon%></th>
+                    <th scope="col"><%-finalH29SunMoon%></th>
+                    <th scope="col"><%-finalH31SunMoon%></th>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
